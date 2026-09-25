@@ -26,6 +26,7 @@ Este é o perfil central de marca. O time deve substituir valores marcados como 
 - Toda peça deve seguir [padrao-visual-global.md](padrao-visual-global.md).
 - A pessoa, partida ou conquista é o foco; efeitos são apoio.
 - Peças da mesma campanha devem compartilhar paleta, luz e elementos gráficos, com composição adaptada a cada formato.
+- Todo banner mestre usa formato 4:5 e resolução 2160 × 2700.
 - Reserve espaço para aplicação posterior de texto, placares, datas e logos.
 - Reserve uma faixa branca no rodapé e inclua sempre as 11 logos oficiais em duas linhas balanceadas.
 

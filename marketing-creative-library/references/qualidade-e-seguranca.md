@@ -9,7 +9,10 @@ Avalie toda peça também contra [padrao-visual-global.md](padrao-visual-global.
 - O CATADOS está à esquerda quando mandante e à direita quando visitante?
 - Em banner de resultado, o placar final foi confirmado e o título corresponde a vitória, empate ou derrota?
 - A contagem dos autores dos gols corresponde ao placar de cada time?
+- Em banner de convocados, a foto em destaque foi anexada e seu uso foi autorizado?
+- A quantidade informada corresponde à lista e todos os nomes foram confirmados?
 - Dimensão ou proporção foi definida?
+- O banner mestre está exatamente em 4:5 e 2160 × 2700?
 - O elemento principal continua reconhecível em miniatura?
 - Existe espaço seguro para título, CTA, data, placar e logos?
 - A composição usa vermelho, preto e branco, geometria moderna, iluminação cinematográfica, grunge leve e acabamento premium?
@@ -30,6 +33,7 @@ Avalie toda peça também contra [padrao-visual-global.md](padrao-visual-global.
 - Contraste e hierarquia funcionam no tamanho real do canal.
 - Não surgiram patrocinadores, troféus, uniformes, estatísticas ou informações não solicitadas.
 - Placar e autores dos gols aparecem associados ao escudo correto?
+- Em convocados, a pessoa preserva fisionomia e a lista não contém nomes ausentes, duplicados ou inventados?
 - A faixa contém exatamente os assets de [patrocinadores-oficiais.md](patrocinadores-oficiais.md)?
 - Todas as logos preservam proporção, desenho e cores, com recorte limitado ao espaço branco externo?
 - A peça não ridiculariza adversários nem reforça estereótipos.

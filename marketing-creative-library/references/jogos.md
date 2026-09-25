@@ -4,11 +4,15 @@ Primeiro identifique se jogo significa esporte/esports ou produto de videogame. 
 
 Todas as peças devem seguir [padrao-visual-global.md](padrao-visual-global.md), incluindo paleta vermelho, preto e branco, atmosfera cinematográfica, geometria diagonal, grunge leve e área de patrocinadores no rodapé.
 
+Em todos os campos {{FORMATO}}, use obrigatoriamente 4:5 e resolução 2160 × 2700 para o banner mestre.
+
 Quando houver confronto com o CATADOS, leia [regras-confronto.md](regras-confronto.md), pergunte obrigatoriamente se o CATADOS é mandante ou visitante e só então defina os lados.
 
 Para o card oficial de anúncio de partida do CATADOS FCCA, use o modelo prioritário em [banner-oficial-jogo.md](banner-oficial-jogo.md). Os modelos abaixo atendem aos demais casos.
 
 Para resultado final com placar e autores dos gols, use [formulario-resultado-jogo.md](formulario-resultado-jogo.md) com [banner-resultado-jogo.md](banner-resultado-jogo.md).
+
+Para convocação com lista de jogadores e foto em destaque, use [formulario-convocados.md](formulario-convocados.md) com [banner-convocados.md](banner-convocados.md).
 
 ## Pré-jogo / match day
 

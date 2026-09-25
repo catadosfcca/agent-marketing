@@ -112,7 +112,7 @@ TRAVAS DOS ESCUDOS E LOGOS
 FORMATO E QUALIDADE
 
 - Proporção: {{FORMATO}}.
-- Resolução: {{RESOLUCAO}}, nunca inferior a 2048 × 2048.
+- Resolução exata: {{RESOLUCAO}}.
 - Alta nitidez, sem borrões, pixelização ou artefatos.
 - Composição pronta para publicação em redes sociais.
 - Respeitar áreas seguras e não encostar textos, escudos ou logos nas bordas.

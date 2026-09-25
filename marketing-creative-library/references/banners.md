@@ -4,6 +4,8 @@ Escolha um modelo e substitua os campos {{...}}. Ajuste a composição ao canal;
 
 Todos os modelos desta página devem incorporar [padrao-visual-global.md](padrao-visual-global.md): vermelho, preto e branco; geometria moderna; luz cinematográfica; grunge premium; glow sutil; alta nitidez e faixa de patrocinadores no rodapé. Se o tema não for esportivo, adapte o ambiente, mas preserve a assinatura visual.
 
+Em todos os campos {{FORMATO}}, use obrigatoriamente 4:5 e resolução 2160 × 2700 para o banner mestre.
+
 ## Banner institucional
 
 ```text

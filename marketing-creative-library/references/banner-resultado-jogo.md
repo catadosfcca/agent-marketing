@@ -26,7 +26,7 @@ Crie diretamente uma IMAGEM FINAL de resultado de jogo, sem explicação e sem p
 
 ESTRUTURA GERAL
 
-- Layout quadrado 1:1, resolução mínima 2048 × 2048.
+- Layout vertical {{FORMATO}}, resolução exata {{RESOLUCAO}}.
 - Arte esportiva profissional, moderna, impactante e dramática.
 - Atmosfera de estádio lotado à noite.
 - Paleta vermelho, preto e branco.

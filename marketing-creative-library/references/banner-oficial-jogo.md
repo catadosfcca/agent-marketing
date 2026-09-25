@@ -21,7 +21,7 @@ Crie uma IMAGEM finalizada, sem texto explicativo e sem produzir outro prompt: u
 
 ESTRUTURA GERAL
 
-- Layout quadrado 1:1, 1080 × 1080.
+- Layout vertical {{FORMATO}}, resolução exata {{RESOLUCAO}}.
 - Aparência de altíssima resolução, extremamente nítida.
 - Estilo moderno, impactante e dramático.
 - Atmosfera de estádio lotado à noite.

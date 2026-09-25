@@ -7,6 +7,8 @@ TITULO_PRINCIPAL: DEU VITÓRIA DOS CATADOS!
 SUBTITULO: RESULTADO FINAL
 PALAVRA_DESTAQUE: VITÓRIA
 RESULTADO_CATADOS: PREENCHER AUTOMATICAMENTE
+FORMATO: 4:5
+RESOLUCAO: 2160 × 2700
 
 MANDO_DE_CAMPO_CATADOS: PREENCHER
 ADVERSARIO: PREENCHER
@@ -45,6 +47,7 @@ OBSERVACOES_ADICIONAIS: NENHUMA
 ## Regras de preenchimento
 
 - Pergunte obrigatoriamente: O CATADOS F.C.C.A. é mandante ou visitante nesta partida?
+- FORMATO e RESOLUCAO devem permanecer em 4:5 e 2160 × 2700.
 - Aplique [regras-confronto.md](regras-confronto.md) antes de preencher qualquer campo esquerdo ou direito.
 - Use somente números inteiros iguais ou maiores que zero nos placares.
 - Calcule RESULTADO_CATADOS: VITÓRIA quando PLACAR_CATADOS for maior; EMPATE quando for igual; DERROTA quando for menor.

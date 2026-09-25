@@ -18,6 +18,7 @@ Transforme o pedido em uma direção visual pronta para produção e, quando sol
    - banner Próxima Partida ou próximo jogo: preencha [references/formulario-proxima-partida.md](references/formulario-proxima-partida.md) e aplique [references/banner-proxima-partida.md](references/banner-proxima-partida.md)
    - anúncio oficial de partida: preencha [references/formulario-banner-jogo.md](references/formulario-banner-jogo.md) e aplique [references/banner-oficial-jogo.md](references/banner-oficial-jogo.md)
    - resultado final, placar ou autores dos gols: preencha [references/formulario-resultado-jogo.md](references/formulario-resultado-jogo.md) e aplique [references/banner-resultado-jogo.md](references/banner-resultado-jogo.md)
+   - convocados, lista de jogadores ou atleta em destaque: preencha [references/formulario-convocados.md](references/formulario-convocados.md) e aplique [references/banner-convocados.md](references/banner-convocados.md)
    - outras partidas, campeonatos, escalações, resultados ou conteúdo gamer: [references/jogos.md](references/jogos.md)
    - aniversários, boas-vindas, conquistas, premiações e agradecimentos: [references/celebracoes.md](references/celebracoes.md)
 3. Para montar o pedido e entregar o resultado no padrão do time, leia [references/briefing-e-entrega.md](references/briefing-e-entrega.md).
@@ -29,8 +30,8 @@ Transforme o pedido em uma direção visual pronta para produção e, quando sol
 - Preserve a assinatura vermelho, preto e branco, a geometria moderna, a iluminação cinematográfica, o grunge premium e a faixa de patrocinadores em todas as categorias. Adapte o cenário ao assunto sem perder essa identidade.
 - Diferencie direção de arte, prompt de imagem e texto final da peça.
 - Prefira gerar o fundo e os elementos visuais sem texto embutido. Reserve áreas limpas para título, data, placar, CTA e logos; recomende composição tipográfica posterior quando a ferramenta não garantir texto fiel.
-- Exceção: nos banners Próxima Partida, anúncio oficial e Resultado do Jogo, siga as travas de texto e a saída de imagem final definidas nas referências correspondentes.
-- Defina proporção ou dimensões antes da geração. Se o canal não for informado, use 1:1 em no mínimo 2048 × 2048 e indique adaptações para 1080 × 1350, 1080 × 1920 e 1920 × 1080.
+- Exceção: nos banners Próxima Partida, anúncio oficial, Resultado do Jogo e Convocados, siga as travas de texto e a saída de imagem final definidas nas referências correspondentes.
+- Todo banner mestre deve usar obrigatoriamente formato 4:5 e resolução 2160 × 2700. Outras dimensões só podem ser exportações derivadas após a aprovação do mestre.
 - Não use nomes, logos, uniformes, personagens ou estilos protegidos como se houvesse licença. Quando a autorização não estiver clara, proponha uma direção original inspirada no gênero, não em um artista ou franquia específica.
 - Não altere rostos, corpos, tons de pele, símbolos culturais ou atributos pessoais de modo ofensivo ou sem necessidade criativa.
 - Para pessoas reais, mantenha semelhança apenas quando o usuário fornecer material autorizado e pedir isso explicitamente.

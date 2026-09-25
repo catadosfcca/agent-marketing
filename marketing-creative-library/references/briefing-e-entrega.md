@@ -16,11 +16,14 @@ Colete ou infira, sem bloquear desnecessariamente:
 | Patrocinadores | usar sempre os 11 assets de [patrocinadores-oficiais.md](patrocinadores-oficiais.md) |
 | Clima | épico, divertido, premium, caloroso, competitivo |
 | Materiais | fotos autorizadas, logos, mockups, referências |
+| Uso de pessoa real | arquivo enviado, autorização e atributos que devem ser preservados |
 | Restrições | itens obrigatórios, proibições, prazo e aprovações |
 
 Use {{CAMPO}} para informação ausente que precisa ser substituída antes da publicação. Nunca transforme um campo não confirmado em fato.
 
 Toda entrega deve usar [padrao-visual-global.md](padrao-visual-global.md). O padrão visual e a faixa de patrocinadores são requisitos do briefing, não opcionais, salvo pedido explícito do usuário.
+
+O banner mestre é sempre 4:5 em 2160 × 2700. Registre outras dimensões apenas como adaptações derivadas.
 
 Em peças de confronto, aplique [regras-confronto.md](regras-confronto.md) antes de montar o prompt. A resposta sobre mando de campo é obrigatória e define nomes e escudos à esquerda e à direita.
 
@@ -56,12 +59,6 @@ Adapte o trecho não incluir texto legível apenas quando a ferramenta usada for
 
 | Uso | Tamanho sugerido |
 | --- | --- |
-| Padrão da biblioteca | 2048 × 2048 px |
-| Feed vertical | 1080 × 1350 px |
-| Feed quadrado | 1080 × 1080 px |
-| Story/Reels | 1080 × 1920 px |
-| Capa/thumbnail | 1920 × 1080 px |
-| Banner horizontal web | 1920 × 640 px ou conforme o layout |
-| Impressão | informar tamanho físico, sangria e 300 dpi |
+| Banner mestre obrigatório | 2160 × 2700 px, proporção 4:5 |
 
-Mantenha títulos, rostos e logos longe das bordas e das zonas cobertas pela interface do canal.
+Não gere banners em outras dimensões. Quando o usuário pedir uma adaptação para outro canal, trate-a como exportação separada posterior ao banner mestre e recomponha o layout.

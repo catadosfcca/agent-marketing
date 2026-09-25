@@ -26,14 +26,15 @@ ARQUIVOS_LOGOS_PATROCINADORES: USAR BIBLIOTECA OFICIAL
 IMAGEM_MODELO: ANEXAR
 
 CORES_PRINCIPAIS: vermelho, preto e branco
-FORMATO: 1:1
-RESOLUCAO: 2048 × 2048
+FORMATO: 4:5
+RESOLUCAO: 2160 × 2700
 OBSERVACOES_ADICIONAIS: NENHUMA
 ```
 
 ## Regras do formulário
 
 - Use exatamente a grafia que deverá aparecer na arte.
+- FORMATO e RESOLUCAO devem permanecer em 4:5 e 2160 × 2700.
 - Antes de preencher TIME_1 e TIME_2, pergunte obrigatoriamente: O CATADOS F.C.C.A. é mandante ou visitante nesta partida?
 - Aplique [regras-confronto.md](regras-confronto.md). Não infira o mando e não gere enquanto MANDO_DE_CAMPO_CATADOS estiver como PREENCHER.
 - Se MANDANTE, CATADOS ocupa TIME_1 à esquerda. Se VISITANTE, CATADOS ocupa TIME_2 à direita.

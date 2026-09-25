@@ -59,8 +59,10 @@ Toda peça deve conter uma faixa horizontal exclusiva no rodapé com as 11 logos
 
 ## Formato e qualidade
 
-- Para feed sem formato informado: 1:1 em no mínimo 2048 × 2048.
-- Para adaptações, recompor a hierarquia; não apenas cortar ou esticar.
+- Todo banner mestre deve usar formato 4:5 e resolução exata de 2160 × 2700.
+- Não gere banner quadrado como arquivo mestre.
+- Para adaptações posteriores, recompor a hierarquia; não apenas cortar ou esticar.
+- Uma adaptação nunca substitui nem altera o mestre 2160 × 2700.
 - Manter alta resolução, nitidez e contraste adequados ao canal.
 - Gerar arte pronta para publicação quando o prompt exigir imagem final.
 
@@ -69,5 +71,5 @@ Toda peça deve conter uma faixa horizontal exclusiva no rodapé com as 11 logos
 Inclua este resumo em toda solicitação de imagem:
 
 ```text
-Aplicar o padrão visual global da marca: paleta vermelho, preto e branco; alto contraste; geometria moderna com diagonais, blocos e overlays; iluminação cinematográfica; glow sutil; profundidade por névoa, fumaça ou partículas moderadas; grunge leve e acabamento premium. Manter hierarquia forte, nitidez alta e leitura em miniatura. Incluir no rodapé uma faixa de fundo branco puro, ocupando aproximadamente 20% a 30% da altura, com as 11 logos oficiais em duas linhas balanceadas, seis na primeira e cinco na segunda. Centralizar e alinhar as marcas, preservar proporções e aparar somente espaço branco externo. Não redesenhar, recolorir, filtrar ou alterar logos, escudos ou pessoas de referência.
+Criar o banner mestre em formato 4:5, resolução exata 2160 × 2700. Aplicar o padrão visual global da marca: paleta vermelho, preto e branco; alto contraste; geometria moderna com diagonais, blocos e overlays; iluminação cinematográfica; glow sutil; profundidade por névoa, fumaça ou partículas moderadas; grunge leve e acabamento premium. Manter hierarquia forte, nitidez alta e leitura em miniatura. Incluir no rodapé uma faixa de fundo branco puro, ocupando aproximadamente 20% a 30% da altura, com as 11 logos oficiais em duas linhas balanceadas, seis na primeira e cinco na segunda. Centralizar e alinhar as marcas, preservar proporções e aparar somente espaço branco externo. Não redesenhar, recolorir, filtrar ou alterar logos, escudos ou pessoas de referência.
 ```
