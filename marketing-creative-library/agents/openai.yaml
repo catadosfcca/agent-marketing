@@ -1,0 +1,7 @@
+interface:
+  display_name: 'Biblioteca Criativa de Marketing'
+  short_description: 'Prompts visuais para campanhas do time'
+  default_prompt: 'Use $marketing-creative-library para criar um conceito e um prompt visual de campanha para o meu time.'
+
+policy:
+  allow_implicit_invocation: true
