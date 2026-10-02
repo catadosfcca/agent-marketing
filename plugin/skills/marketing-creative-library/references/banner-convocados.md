@@ -1,5 +1,9 @@
 # Banner oficial Convocados
 
+## Aplicação no plugin
+
+As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
+
 Use este modelo para anunciar exclusivamente a lista de jogadores convocados. A peça segue [padrao-visual-global.md](padrao-visual-global.md), utiliza o escudo oficial do CATADOS e inclui o rodapé de [patrocinadores-oficiais.md](patrocinadores-oficiais.md).
 
 ## Trava anterior à geração

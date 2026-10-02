@@ -1,5 +1,9 @@
 # Formulário do banner Convocados
 
+## Aplicação no plugin
+
+As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
+
 Preencha este formulário e anexe a foto do jogador em destaque antes da geração. Altere somente os valores depois dos dois-pontos e as linhas da lista.
 
 ```text
@@ -8,7 +12,7 @@ SUBTITULO: CATADOS FCCA
 
 NOME_JOGADOR_DESTAQUE: PREENCHER
 FOTO_JOGADOR_DESTAQUE: ANEXAR
-AUTORIZACAO_USO_DA_FOTO: CONFIRMAR
+AUTORIZACAO_USO_DA_FOTO: USO SOLICITADO PELO USUÁRIO
 POSICAO_JOGADOR_DESTAQUE: DIREITA
 OCUPACAO_VISUAL_JOGADOR: 40% A 50%
 
@@ -17,26 +21,10 @@ ARQUIVO_REFERENCIA_UNIFORME: NÃO INFORMAR
 ARQUIVO_ESCUDO_CATADOS: ../assets/escudos/catados-fcca.jpeg
 
 EXIBIR_NUMEROS_CAMISA: NÃO
-QUANTIDADE_CONVOCADOS: 17
+QUANTIDADE_CONVOCADOS: CALCULAR A PARTIR DA LISTA
 COLUNAS_DA_LISTA: AUTOMÁTICO
 LISTA_CONVOCADOS:
-1. Cenouro | NÚMERO: NÃO INFORMAR
-2. Biel Boyceta | NÚMERO: NÃO INFORMAR
-3. Gato Salve | NÚMERO: NÃO INFORMAR
-4. Jeff Bidu | NÚMERO: NÃO INFORMAR
-5. Paschoali Esporão | NÚMERO: NÃO INFORMAR
-6. Igor éo Grelo | NÚMERO: NÃO INFORMAR
-7. Jorge Espetinho | NÚMERO: NÃO INFORMAR
-8. Gentil Patropi | NÚMERO: NÃO INFORMAR
-9. Léo Gays | NÚMERO: NÃO INFORMAR
-10. Lucas Warrior | NÚMERO: NÃO INFORMAR
-11. Vini Jr | NÚMERO: NÃO INFORMAR
-12. Luizinho Espanhol | NÚMERO: NÃO INFORMAR
-13. Rosa Basilio | NÚMERO: NÃO INFORMAR
-14. Nando Ex-Carillo | NÚMERO: NÃO INFORMAR
-15. Mosca Arranque Balsa | NÚMERO: NÃO INFORMAR
-16. FishMan | NÚMERO: NÃO INFORMAR
-17. Lucciola Balboa | NÚMERO: NÃO INFORMAR
+PREENCHER COM A LISTA ATUAL DO USUÁRIO
 
 FORMATO: 4:5
 RESOLUCAO: 2160 × 2700

@@ -1,5 +1,9 @@
 # Celebrações e reconhecimento
 
+## Aplicação no plugin
+
+As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
+
 Use linguagem visual calorosa e específica. Evite transformar toda celebração em confetes genéricos; conecte a cena à pessoa, ao time ou à conquista.
 
 Todas as peças devem adaptar [padrao-visual-global.md](padrao-visual-global.md). Preserve vermelho, preto e branco, formas geométricas, luz cinematográfica, acabamento premium e faixa de patrocinadores; substitua a tensão competitiva por uma atmosfera acolhedora, festiva ou solene conforme o contexto.

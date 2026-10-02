@@ -1,0 +1,29 @@
+{
+  "interface": {
+    "displayName": "Catados FCCA Marketing",
+    "shortDescription": "Imagens e banners do Catados",
+    "longDescription": "Crie artes de pr\u00f3xima partida, resultados, convocados, homenagens, patrocinadores e Catados TV. Inclui escudo, 11 logos e modelos edit\u00e1veis. Usa a ferramenta de imagens dispon\u00edvel na conversa.",
+    "developerName": "Jo\u00e3o Pego",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "logo": "./assets/icon-512.png",
+    "composerIcon": "./assets/icon-512.png",
+    "defaultPrompt": [
+      "Mostre o menu de cria\u00e7\u00e3o de artes do Catados FCCA.",
+      "Crie um banner de pr\u00f3xima partida do Catados FCCA.",
+      "Crie uma arte de convocados do Catados FCCA."
+    ],
+    "logoDark": "./assets/icon-512.png",
+    "composerIconDark": "./assets/icon-512.png"
+  },
+  "name": "catados-fcca-marketing",
+  "version": "1.0.3",
+  "description": "Agente de marketing do Catados FCCA para criar imagens, banners esportivos e pe\u00e7as de patrocinadores com os assets oficiais fornecidos.",
+  "author": {
+    "name": "Jo\u00e3o Pego"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

@@ -1,5 +1,9 @@
 # Formulário do banner oficial de jogo
 
+## Aplicação no plugin
+
+As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
+
 Duplique e edite este formulário para cada partida. Altere somente os valores depois dos dois-pontos. Não remova os nomes dos campos.
 
 ```text
@@ -10,7 +14,7 @@ FORMATO: 4:5
 RESOLUCAO: 2160 × 2700
 
 MANDO_DE_CAMPO_CATADOS: PREENCHER
-ADVERSARIO: DEMOCRATAS FC
+ADVERSARIO: PREENCHER
 ARQUIVO_ESCUDO_CATADOS: ../assets/escudos/catados-fcca.jpeg
 ARQUIVO_ESCUDO_ADVERSARIO: ANEXAR
 
@@ -20,13 +24,13 @@ ARQUIVO_ESCUDO_ESQUERDA: DEFINIR APÓS RESPOSTA
 TIME_DIREITA: DEFINIR APÓS RESPOSTA
 ARQUIVO_ESCUDO_DIREITA: DEFINIR APÓS RESPOSTA
 
-DATA_E_DIA: 23/09- Quarta Feira
-ANO_PARA_VALIDACAO: 2026
-HORARIO: 21:30hrs
-LOCAL: CAMPO ALVINEGRO
-ENDERECO: Rua Gutemberg, 114 - Santo André
+DATA_E_DIA: PREENCHER
+ANO_PARA_VALIDACAO: PREENCHER
+HORARIO: PREENCHER
+LOCAL: PREENCHER
+ENDERECO: PREENCHER
 
-IMAGEM_DE_REFERENCIA: ANEXAR
+IMAGEM_DE_REFERENCIA: OPCIONAL
 TEXTO_AREA_PATROCINADORES: PATROCINADORES
 LOGOS_PATROCINADORES: USAR BIBLIOTECA OFICIAL
 OBSERVACOES_ADICIONAIS: NENHUMA

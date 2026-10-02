@@ -1,5 +1,9 @@
 # Patrocinadores oficiais
 
+## Aplicação no plugin
+
+As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
+
 Estas 11 imagens são os assets obrigatórios do rodapé de todas as peças. Os arquivos foram copiados sem alteração e devem ser usados diretamente, nunca recriados por geração de imagem.
 
 ## Assets autorizados

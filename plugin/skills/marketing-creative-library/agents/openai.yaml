@@ -1,0 +1,6 @@
+interface:
+  display_name: "Catados FCCA Marketing"
+  short_description: "Artes, banners e imagens oficiais do Catados"
+  default_prompt: "Use $marketing-creative-library para gerar uma arte do Catados FCCA."
+policy:
+  allow_implicit_invocation: true

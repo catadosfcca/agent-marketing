@@ -1,12 +1,16 @@
 # Formulário do banner Próxima Partida
 
+## Aplicação no plugin
+
+As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
+
 Duplique e edite este formulário para cada novo jogo. Altere somente os valores depois dos dois-pontos.
 
 ```text
 TITULO_PRINCIPAL: PRÓXIMA PARTIDA
 
 MANDO_DE_CAMPO_CATADOS: PREENCHER
-ADVERSARIO: GIGUI FC
+ADVERSARIO: PREENCHER
 ARQUIVO_ESCUDO_CATADOS: ../assets/escudos/catados-fcca.jpeg
 ARQUIVO_ESCUDO_ADVERSARIO: ANEXAR
 
@@ -16,14 +20,14 @@ ARQUIVO_ESCUDO_TIME_1: DEFINIR APÓS RESPOSTA
 TIME_2: DEFINIR APÓS RESPOSTA
 ARQUIVO_ESCUDO_TIME_2: DEFINIR APÓS RESPOSTA
 
-DATA_E_DIA: 16/09 - QUARTA-FEIRA
+DATA_E_DIA: PREENCHER
 ANO_PARA_VALIDACAO: PREENCHER
-HORARIO: 20h (Bola rolando)
-LOCAL: CAMPO ALVINEGRO - SANTO ANDRÉ
+HORARIO: PREENCHER
+LOCAL: PREENCHER
 COMPETICAO: AMISTOSO
 
 ARQUIVOS_LOGOS_PATROCINADORES: USAR BIBLIOTECA OFICIAL
-IMAGEM_MODELO: ANEXAR
+IMAGEM_MODELO: OPCIONAL
 
 CORES_PRINCIPAIS: vermelho, preto e branco
 FORMATO: 4:5
