@@ -6,7 +6,7 @@ As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevale
 
 Primeiro identifique se jogo significa esporte/esports ou produto de videogame. Não invente adversário, competição, uniforme, personagens, mapas, placares ou resultado.
 
-Todas as peças devem seguir [padrao-visual-global.md](padrao-visual-global.md), incluindo paleta vermelho, preto e branco, atmosfera cinematográfica, geometria diagonal, grunge leve e área de patrocinadores no rodapé.
+Todas as peças devem seguir [padrao-visual-global.md](padrao-visual-global.md), incluindo paleta vermelho, preto e branco, atmosfera cinematográfica, geometria diagonal, grunge leve e duas faixas horizontais de patrocinadores, uma no topo e outra na base.
 
 Em todos os campos {{FORMATO}}, use obrigatoriamente 4:5 e resolução 2160 × 2700 para o banner mestre.
 

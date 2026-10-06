@@ -7,7 +7,7 @@ As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevale
 Duplique e edite este formulário para cada partida. Altere somente os valores depois dos dois-pontos. Não remova os nomes dos campos.
 
 ```text
-TITULO_PRINCIPAL: TEM CATADOS EM CAMPO!
+TITULO_PRINCIPAL: TEM CATADOS EM CAMPO
 SUBTITULO: AMISTOSO
 PALAVRA_DESTAQUE: CATADOS
 FORMATO: 4:5
@@ -26,6 +26,9 @@ ARQUIVO_ESCUDO_DIREITA: DEFINIR APÓS RESPOSTA
 
 DATA_E_DIA: PREENCHER
 ANO_PARA_VALIDACAO: PREENCHER
+VAI_TER_TRANSMISSAO: PREENCHER
+TEXTO_TRANSMISSAO: DEFINIR APÓS RESPOSTA
+LINK_TRANSMISSAO: OPCIONAL
 HORARIO: PREENCHER
 LOCAL: PREENCHER
 ENDERECO: PREENCHER
@@ -39,6 +42,9 @@ OBSERVACOES_ADICIONAIS: NENHUMA
 ## Regras de preenchimento
 
 - Use exatamente a grafia que deverá aparecer na arte.
+- Pergunte **Vai ter transmissão?** se essa informação ainda não foi dada para a partida atual. Siga [transmissão Catados TV](transmissao-catados-tv.md).
+- Com SIM, usar TEXTO_TRANSMISSAO: AO VIVO NO YOUTUBE · CATADOS TV. Com NÃO, deixar TEXTO_TRANSMISSAO vazio e omitir a chamada. LINK_TRANSMISSAO é opcional; não inventar URLs.
+- Não gerar enquanto VAI_TER_TRANSMISSAO estiver pendente. Não imprimir os campos de controle SIM/NÃO, PREENCHER, DEFINIR APÓS RESPOSTA ou OPCIONAL na arte.
 - FORMATO e RESOLUCAO devem permanecer em 4:5 e 2160 × 2700.
 - Antes de preencher os lados, pergunte obrigatoriamente: O CATADOS F.C.C.A. é mandante ou visitante nesta partida?
 - Aplique [regras-confronto.md](regras-confronto.md). Não infira o mando e não gere enquanto MANDO_DE_CAMPO_CATADOS estiver como PREENCHER.

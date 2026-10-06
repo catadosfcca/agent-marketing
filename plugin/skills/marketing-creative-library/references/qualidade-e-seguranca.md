@@ -4,7 +4,7 @@
 
 As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
 
-Avalie toda peça também contra [padrao-visual-global.md](padrao-visual-global.md).
+Avalie toda peça também contra [padrao-visual-global.md](padrao-visual-global.md). Na opção Busca de times visitantes, os itens relativos às 11 logos e às duas faixas não se aplicam: conferir a presença do escudo e a ausência de patrocinadores, texto PATROCINADORES e faixas vazias.
 
 ## Checklist antes de gerar
 
@@ -13,15 +13,16 @@ Avalie toda peça também contra [padrao-visual-global.md](padrao-visual-global.
 - O CATADOS está à esquerda quando mandante e à direita quando visitante?
 - Em banner de resultado, o placar final foi confirmado e o título corresponde a vitória, empate ou derrota?
 - A contagem dos autores dos gols corresponde ao placar de cada time?
-- Em banner de convocados, a foto em destaque foi anexada e seu uso foi autorizado?
+- Em banner de convocados, a lista atual completa enviada pelo usuário está disponível e legível, e a foto obrigatória do jogador em destaque foi anexada e enviada como input visual real? O envio da foto para esta criação registra o uso solicitado, sem reconfirmação.
 - A quantidade informada corresponde à lista e todos os nomes foram confirmados?
+- Em divulgação de jogos, a pergunta Vai ter transmissão? foi respondida e a chamada Catados TV está prevista somente com SIM?
 - Dimensão ou proporção foi definida?
 - O banner mestre está exatamente em 4:5 e 2160 × 2700?
 - O elemento principal continua reconhecível em miniatura?
 - Existe espaço seguro para título, CTA, data, placar e logos?
 - A composição usa vermelho, preto e branco, geometria moderna, iluminação cinematográfica, grunge leve e acabamento premium?
-- A faixa de patrocinadores tem fundo branco puro e ocupa aproximadamente 20% a 30% do rodapé sem sobrepor conteúdo?
-- As 11 logos oficiais estão presentes em duas linhas balanceadas, seis na primeira e cinco na segunda?
+- As duas faixas de patrocinadores têm fundo branco puro, uma linha cada e margens seguras, sem sobrepor o conteúdo central? A altura inicial de 8% a 10% por faixa foi ajustada quando necessário para legibilidade?
+- As 11 logos oficiais aparecem exatamente uma vez, itens 1 a 6 no topo e itens 7 a 11 na base, na ordem da biblioteca?
 - Todos os fatos foram confirmados ou marcados como {{CAMPO}}?
 - Fotos, marcas, uniformes e personagens têm autorização ou foram substituídos por alternativas originais?
 - O prompt evita depender de texto gerado dentro da imagem?
@@ -36,9 +37,10 @@ Avalie toda peça também contra [padrao-visual-global.md](padrao-visual-global.
 - A área reservada comporta a copy sem cobrir o foco.
 - Contraste e hierarquia funcionam no tamanho real do canal.
 - Não surgiram patrocinadores, troféus, uniformes, estatísticas ou informações não solicitadas.
+- Em divulgação de jogos, a chamada AO VIVO NO YOUTUBE · CATADOS TV aparece uma única vez com SIM e está ausente com NÃO, sem cobrir informações ou patrocinadores?
 - Placar e autores dos gols aparecem associados ao escudo correto?
 - Em convocados, a pessoa preserva fisionomia e a lista não contém nomes ausentes, duplicados ou inventados?
-- A faixa contém exatamente os assets de [patrocinadores-oficiais.md](patrocinadores-oficiais.md)?
+- As duas faixas contêm exatamente os assets de [patrocinadores-oficiais.md](patrocinadores-oficiais.md)?
 - Todas as logos preservam proporção, desenho e cores, com recorte limitado ao espaço branco externo?
 - A peça não ridiculariza adversários nem reforça estereótipos.
 

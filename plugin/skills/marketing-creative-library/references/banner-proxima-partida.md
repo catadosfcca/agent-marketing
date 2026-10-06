@@ -23,6 +23,14 @@ Antes de chamar a ferramenta de imagem:
 
 Não gere se qualquer validação falhar. Peça somente os dados ou anexos faltantes.
 
+## Transmissão da partida
+
+Aplicar [transmissão Catados TV](transmissao-catados-tv.md). Perguntar **Vai ter transmissão?** junto com os dados faltantes, somente quando o usuário ainda não tiver informado. Validar VAI_TER_TRANSMISSAO como SIM ou NÃO antes de gerar. Com SIM, preparar TEXTO_TRANSMISSAO: AO VIVO NO YOUTUBE · CATADOS TV; com NÃO, deixá-lo vazio e omitir a chamada. Não exigir link.
+
+## Envio obrigatório dos arquivos à ferramenta
+
+Antes da geração, executar [envio de assets](envio-de-assets.md) e anexar a prancha oficial com escudo e patrocinadores no campo real de entrada de imagens da ferramenta. Os caminhos nas variáveis deste prompt não substituem anexos. A prancha identifica as marcas; aplicar seis no topo, cinco na base e o escudo na área central prevista neste modelo. Se os arquivos não puderem ser enviados, informar a limitação em vez de entregar um banner sem as marcas.
+
 ## Prompt oficial
 
 Substitua cada campo {{...}} pelo valor correspondente do formulário. Depois envie somente o conteúdo do bloco à ferramenta de geração.
@@ -88,15 +96,25 @@ VS
 {{DATA_E_DIA}}
 {{HORARIO}} | {{LOCAL}}
 {{COMPETICAO}}
+{{TEXTO_TRANSMISSAO}}
 
-- Omitir somente COMPETICAO quando o formulário determinar que esse campo está vazio.
+- Omitir COMPETICAO quando o campo estiver vazio e TEXTO_TRANSMISSAO quando VAI_TER_TRANSMISSAO for NÃO. A chamada de transmissão é texto autorizado somente com SIM.
 - Conferir caractere por caractere antes de finalizar.
+
+TRANSMISSÃO — CHAMADA CONDICIONAL
+
+- Status confirmado da transmissão: {{VAI_TER_TRANSMISSAO}}. Esse status é controle interno e não aparece na imagem.
+- Se SIM, reproduzir exatamente {{TEXTO_TRANSMISSAO}} uma única vez em um selo compacto e legível, abaixo das informações do jogo e acima da faixa inferior de patrocinadores.
+- Se NÃO, omitir completamente a chamada, inclusive selo ou ícone de live. Omitir TEXTO_TRANSMISSAO vazio sem mostrar placeholders.
+- A chamada faz parte do texto autorizado da arte somente quando a transmissão estiver confirmada.
+- Não inventar link, canal, @handle, horário da transmissão ou QR code; não inserir a pergunta do briefing na imagem.
+- Preservar a hierarquia do confronto e não cobrir escudos, data, horário ou patrocinadores.
 
 ÁREA DE PATROCINADORES
 
-- Criar faixa obrigatória no rodapé com fundo branco puro #FFFFFF.
+- Criar duas faixas horizontais separadas com fundo branco puro #FFFFFF: uma no topo e outra na base.
 - Usar diretamente as 11 logos de {{ARQUIVOS_LOGOS_PATROCINADORES}}.
-- Organizar em duas linhas balanceadas: seis logos na primeira e cinco na segunda.
+- Usar uma única linha em cada faixa: itens 1 a 6 no topo e itens 7 a 11 na base, na ordem da biblioteca, sem duplicar marcas. Reservar inicialmente 8% a 10% da altura para cada faixa, ajustando pela legibilidade e área segura do formato.
 - Centralizar cada logo em sua célula, com margens e espaços uniformes.
 - Equalizar a altura visual sem distorcer proporções.
 - Dar boa visibilidade sem competir com o título.
@@ -124,7 +142,7 @@ FORMATO E QUALIDADE
 
 RESULTADO FINAL
 
-Entregar uma arte esportiva moderna, cinematográfica e épica, com fundo abstrato geométrico na paleta indicada, atmosfera de grande decisão, escudos e logos originais intactos, tipografia premium em português e área profissional para patrocinadores no rodapé.
+Entregar uma arte esportiva moderna, cinematográfica e épica, com fundo abstrato geométrico na paleta indicada, atmosfera de grande decisão, escudos e logos originais intactos, tipografia premium em português e duas faixas profissionais de patrocinadores, seis no topo e cinco na base.
 
 Gerar somente a imagem final. Não descrever, não explicar, não criar outro prompt e não incluir conteúdo fora da arte.
 ```
@@ -134,12 +152,13 @@ Gerar somente a imagem final. Não descrever, não explicar, não criar outro pr
 Rejeite a imagem e tente novamente somente quando:
 
 - qualquer texto divergir do formulário validado;
+- a chamada de transmissão faltar com SIM, aparecer com NÃO, estiver duplicada ou indicar plataforma/canal incorretos;
 - a data for passada ou não corresponder ao dia da semana;
 - os times ou escudos estiverem trocados;
 - escudo ou logo tiver sido deformado, reinterpretado ou cortado;
 - o CATADOS estiver à direita como mandante ou à esquerda como visitante;
 - alguma das 11 logos estiver ausente, alterada, ilegível ou fora de ordem;
-- o rodapé não tiver fundo branco puro;
+- uma das duas faixas não tiver fundo branco puro ou as marcas não estiverem distribuídas em 6 no topo e 5 na base;
 - aparecer patrocinador não fornecido;
 - houver texto extra, ilegível ou fora da área segura;
 - a resolução ou a proporção estiver incorreta.

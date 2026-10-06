@@ -6,9 +6,19 @@ As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevale
 
 Escolha um modelo e substitua os campos {{...}}. Ajuste a composição ao canal; não apenas redimensione a mesma arte.
 
-Todos os modelos desta página devem incorporar [padrao-visual-global.md](padrao-visual-global.md): vermelho, preto e branco; geometria moderna; luz cinematográfica; grunge premium; glow sutil; alta nitidez e faixa de patrocinadores no rodapé. Se o tema não for esportivo, adapte o ambiente, mas preserve a assinatura visual.
+Todos os modelos desta página devem incorporar [padrao-visual-global.md](padrao-visual-global.md): vermelho, preto e branco; geometria moderna; luz cinematográfica; grunge premium; glow sutil; alta nitidez e duas faixas horizontais de patrocinadores, uma no topo e outra na base. Na busca de times visitantes, omitir as duas faixas e todos os patrocinadores conforme a exceção abaixo. Se o tema não for esportivo, adapte o ambiente, mas preserve a assinatura visual.
 
 Em todos os campos {{FORMATO}}, use obrigatoriamente 4:5 e resolução 2160 × 2700 para o banner mestre.
+
+## Busca de times visitantes
+
+Modelo da opção 7 do menu. Gerar uma imagem sem patrocinadores: não inserir as 11 marcas, faixas brancas de logos, células vazias ou o texto PATROCINADORES. Preservar vermelho, preto e branco, acabamento esportivo e o escudo original do Catados.
+
+Enviar somente [o escudo original](../assets/escudos/catados-fcca.jpeg) como referência de identidade, junto de outras imagens pertinentes fornecidas pelo usuário. Não anexar a prancha oficial nem as faixas de patrocinadores, pois suas marcas poderiam aparecer na geração.
+
+Usar os dados atuais fornecidos para a chamada de busca de adversários. Não inventar time confirmado, contato, local, data ou horário. Pedir juntos somente os dados indispensáveis ausentes. Aproveitar o espaço do topo e da base para título, mensagem e chamada para contato, mantendo margens seguras.
+
+Na conferência, verificar que o escudo aparece e que não há patrocinadores nem áreas vazias reservadas a eles. A ausência de patrocinadores nessa categoria é o resultado esperado, não um erro de geração.
 
 ## Banner institucional
 

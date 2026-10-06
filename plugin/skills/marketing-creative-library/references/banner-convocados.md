@@ -4,21 +4,26 @@
 
 As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
 
-Use este modelo para anunciar exclusivamente a lista de jogadores convocados. A peça segue [padrao-visual-global.md](padrao-visual-global.md), utiliza o escudo oficial do CATADOS e inclui o rodapé de [patrocinadores-oficiais.md](patrocinadores-oficiais.md).
+Use este modelo para anunciar exclusivamente a lista de jogadores convocados. A peça segue [padrao-visual-global.md](padrao-visual-global.md), utiliza o escudo oficial do CATADOS e inclui as duas faixas de [patrocinadores-oficiais.md](patrocinadores-oficiais.md).
 
 ## Trava anterior à geração
 
 Antes de chamar a ferramenta de imagem:
 
 - preencha [formulario-convocados.md](formulario-convocados.md);
-- solicite o upload da FOTO_JOGADOR_DESTAQUE;
-- confirme AUTORIZACAO_USO_DA_FOTO;
+- confira a lista atual completa enviada pelo usuário em texto ou arquivo legível;
+- confira a FOTO_JOGADOR_DESTAQUE anexada e acessível; se lista ou foto faltar, solicite juntos somente os materiais faltantes e aguarde o envio;
+- registre AUTORIZACAO_USO_DA_FOTO como USO SOLICITADO PELO USUÁRIO quando a foto tiver sido enviada para esta criação, sem pedir reconfirmação;
 - confirme a grafia de todos os nomes;
 - conte as linhas e valide QUANTIDADE_CONVOCADOS;
 - confirme a referência do uniforme quando houver troca de roupa;
 - confirme o escudo oficial e os 11 assets de patrocinadores.
 
-Não gere enquanto houver PREENCHER, ANEXAR, autorização pendente ou divergência entre lista e quantidade.
+Não chame a ferramenta de imagem enquanto a lista atual completa ou a foto do jogador em destaque estiver ausente, vazia ou ilegível/inacessível, nem enquanto houver PREENCHER, ANEXAR em campo obrigatório ou divergência entre lista e quantidade. Não usar lista de exemplo, jogador genérico ou composição somente tipográfica para contornar a falta de materiais.
+
+## Envio obrigatório dos arquivos à ferramenta
+
+Antes da geração, executar [envio de assets](envio-de-assets.md) e anexar a prancha oficial com escudo e patrocinadores no campo real de entrada de imagens da ferramenta. Anexar também a foto do jogador em destaque como input visual real da ferramenta e usar a lista atual como conteúdo textual validado. Os caminhos nas variáveis deste prompt não substituem anexos. A prancha identifica as marcas; aplicar seis no topo, cinco na base e o escudo na área central prevista neste modelo. Se os arquivos não puderem ser enviados, informar a limitação em vez de entregar um banner sem as marcas.
 
 ## Prompt oficial
 
@@ -36,8 +41,8 @@ OBJETIVO
 FORMATO E COMPOSIÇÃO
 
 - Proporção {{FORMATO}}, resolução {{RESOLUCAO}}.
-- Reservar o rodapé para os patrocinadores.
-- Usar {{POSICAO_JOGADOR_DESTAQUE}} para o jogador em destaque, ocupando {{OCUPACAO_VISUAL_JOGADOR}} da área útil acima do rodapé.
+- Reservar uma faixa no topo e outra na base para os patrocinadores; posicionar título, jogador e lista entre elas.
+- Usar {{POSICAO_JOGADOR_DESTAQUE}} para o jogador em destaque, ocupando {{OCUPACAO_VISUAL_JOGADOR}} da área útil entre as duas faixas de patrocinadores.
 - Posicionar a lista no lado oposto ao jogador.
 - Aplicar {{COLUNAS_DA_LISTA}} colunas, escolhendo automaticamente duas ou três quando necessário para leitura.
 - Criar hierarquia clara entre título, escudo, jogador, subtítulo e lista.
@@ -104,11 +109,11 @@ TRAVA DE TEXTO
 
 ÁREA DE PATROCINADORES
 
-- Criar faixa obrigatória no rodapé com fundo branco puro #FFFFFF.
+- Criar duas faixas horizontais separadas com fundo branco puro #FFFFFF: uma no topo e outra na base.
 - Usar diretamente as 11 logos de {{LOGOS_PATROCINADORES}}.
-- Organizar em duas linhas balanceadas: seis logos na primeira e cinco na segunda.
+- Usar uma única linha em cada faixa: itens 1 a 6 no topo e itens 7 a 11 na base, na ordem da biblioteca, sem duplicar marcas. Reservar inicialmente 8% a 10% da altura para cada faixa, ajustando pela legibilidade e área segura do formato.
 - Centralizar cada marca em sua célula, preservar proporções e manter margens uniformes.
-- Inserir {{TEXTO_AREA_PATROCINADORES}} acima da área.
+- Quando preenchido, inserir {{TEXTO_AREA_PATROCINADORES}} uma única vez, imediatamente acima da faixa inferior, sem sobrepor as marcas.
 - Pode aparar somente espaço branco externo.
 - Não cortar, redesenhar, recolorir, filtrar ou aplicar efeitos nas logos.
 
@@ -132,6 +137,6 @@ Rejeite a imagem e tente novamente somente quando:
 - aparecer adversário ou qualquer informação de partida;
 - escudo estiver deformado ou alterado;
 - qualquer uma das 11 logos estiver ausente, alterada ou ilegível;
-- rodapé não tiver fundo branco puro.
+- uma das duas faixas não tiver fundo branco puro ou as marcas não estiverem distribuídas em 6 no topo e 5 na base.
 
 Limite a três tentativas automáticas. Persistindo erro em rosto, nomes, escudo ou logos, pare e recomende gerar o fundo sem textos e finalizar a composição em ferramenta de design.

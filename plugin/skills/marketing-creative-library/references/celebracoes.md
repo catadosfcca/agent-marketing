@@ -6,7 +6,7 @@ As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevale
 
 Use linguagem visual calorosa e específica. Evite transformar toda celebração em confetes genéricos; conecte a cena à pessoa, ao time ou à conquista.
 
-Todas as peças devem adaptar [padrao-visual-global.md](padrao-visual-global.md). Preserve vermelho, preto e branco, formas geométricas, luz cinematográfica, acabamento premium e faixa de patrocinadores; substitua a tensão competitiva por uma atmosfera acolhedora, festiva ou solene conforme o contexto.
+Todas as peças devem adaptar [padrao-visual-global.md](padrao-visual-global.md). Preserve vermelho, preto e branco, formas geométricas, luz cinematográfica, acabamento premium e duas faixas de patrocinadores no topo e na base; substitua a tensão competitiva por uma atmosfera acolhedora, festiva ou solene conforme o contexto.
 
 Em todos os campos {{FORMATO}}, use obrigatoriamente 4:5 e resolução 2160 × 2700 para o banner mestre.
 

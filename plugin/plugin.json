@@ -1,32 +1,20 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "catados-fcca-marketing",
-  "version": "1.0.3",
+  "version": "1.0.11",
   "description": "Agente de marketing do Catados FCCA para criar imagens, banners esportivos e peças de patrocinadores com os assets oficiais fornecidos.",
-  "author": {
-    "name": "João Pego"
-  },
-  "extensions": {
-    "com.openai": {
-      "interface": {
-        "displayName": "Catados FCCA Marketing",
-        "shortDescription": "Imagens e banners do Catados",
-        "longDescription": "Crie artes de próxima partida, resultados, convocados, homenagens, patrocinadores e Catados TV. Inclui escudo, 11 logos e modelos editáveis. Usa a ferramenta de imagens disponível na conversa.",
-        "developerName": "João Pego",
-        "category": "Productivity",
-        "capabilities": [
-          "Interactive"
-        ],
-        "logo": "./assets/icon-512.png",
-        "composerIcon": "./assets/icon-512.png",
-        "defaultPrompt": [
-          "Mostre o menu de criação de artes do Catados FCCA.",
-          "Crie um banner de próxima partida do Catados FCCA.",
-          "Crie uma arte de convocados do Catados FCCA."
-        ],
-        "logoDark": "./assets/icon-512.png",
-        "composerIconDark": "./assets/icon-512.png"
-      }
-    }
-  }
+  "author": {"name": "João Pego"},
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "Catados FCCA Marketing",
+    "shortDescription": "Imagens e banners do Catados",
+    "longDescription": "Crie artes de próxima partida, resultados, convocados, homenagens, patrocinadores e Catados TV. Inclui escudo, 11 logos e modelos editáveis. Usa a ferramenta de imagens disponível na conversa.",
+    "developerName": "João Pego",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "logo": "./assets/icon-512.png",
+    "composerIcon": "./assets/icon-512.png",
+    "defaultPrompt": ["Mostre o menu de criação de artes do Catados FCCA.","Crie um banner de próxima partida do Catados FCCA.","Crie uma arte de convocados do Catados FCCA."],
+    "logoDark": "./assets/icon-512.png",
+    "composerIconDark": "./assets/icon-512.png"
+  }}}
 }

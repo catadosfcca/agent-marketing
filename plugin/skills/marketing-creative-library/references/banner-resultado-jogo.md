@@ -4,7 +4,7 @@
 
 As regras operacionais de [operacao-do-agente.md](operacao-do-agente.md) prevalecem sobre exigências genéricas deste modelo. Respeite formato e exceções pedidos pelo usuário; reaproveite dados já informados; use os assets incluídos sem pedir novo upload; trate exemplos como exemplos, nunca como fatos da partida atual. Não exija reconfirmação de uso de fotos enviadas para a criação solicitada. Gere a imagem quando o usuário pedir a arte.
 
-Use este modelo para publicar o resultado final mantendo a mesma linguagem visual do [banner oficial de anúncio](banner-oficial-jogo.md), de [padrao-visual-global.md](padrao-visual-global.md) e o rodapé de [patrocinadores-oficiais.md](patrocinadores-oficiais.md).
+Use este modelo para publicar o resultado final mantendo a mesma linguagem visual do [banner oficial de anúncio](banner-oficial-jogo.md), de [padrao-visual-global.md](padrao-visual-global.md) e as duas faixas de [patrocinadores-oficiais.md](patrocinadores-oficiais.md).
 
 ## Trava anterior à geração
 
@@ -20,6 +20,10 @@ Antes de chamar a ferramenta de imagem:
 - confirme a imagem de referência, o escudo adversário e os assets oficiais.
 
 Não gere enquanto houver PREENCHER, DEFINIR APÓS RESPOSTA, informação contraditória ou arquivo obrigatório ausente.
+
+## Envio obrigatório dos arquivos à ferramenta
+
+Antes da geração, executar [envio de assets](envio-de-assets.md) e anexar a prancha oficial com escudo e patrocinadores no campo real de entrada de imagens da ferramenta. Os caminhos nas variáveis deste prompt não substituem anexos. A prancha identifica as marcas; aplicar seis no topo, cinco na base e o escudo na área central prevista neste modelo. Se os arquivos não puderem ser enviados, informar a limitação em vez de entregar um banner sem as marcas.
 
 ## Prompt oficial
 
@@ -96,19 +100,19 @@ GOLS: {{AUTORES_GOLS_DIREITA}}
 
 INFORMAÇÕES DO JOGO
 
-- Exibir {{DATA_E_DIA}}, {{HORARIO}}, {{LOCAL}}, {{ENDERECO}} e {{COMPETICAO}} em uma faixa organizada acima dos patrocinadores.
+- Exibir {{DATA_E_DIA}}, {{HORARIO}}, {{LOCAL}}, {{ENDERECO}} e {{COMPETICAO}} em uma faixa organizada no conteúdo central, acima da faixa inferior de patrocinadores.
 - Usar ícones discretos de calendário, relógio e localização.
 - Manter leitura clara sem competir com título, placar ou autores dos gols.
 - Aplicar esta observação de resultado quando houver: {{OBSERVACAO_RESULTADO}}.
 
 ÁREA DE PATROCINADORES
 
-- Criar faixa obrigatória no rodapé com fundo branco puro #FFFFFF.
+- Criar duas faixas horizontais separadas com fundo branco puro #FFFFFF: uma no topo e outra na base.
 - Usar diretamente as 11 logos de {{LOGOS_PATROCINADORES}}.
-- Organizar em duas linhas balanceadas: seis logos na primeira e cinco na segunda.
+- Usar uma única linha em cada faixa: itens 1 a 6 no topo e itens 7 a 11 na base, na ordem da biblioteca, sem duplicar marcas. Reservar inicialmente 8% a 10% da altura para cada faixa, ajustando pela legibilidade e área segura do formato.
 - Centralizar cada marca em sua célula, com margens uniformes.
 - Equalizar altura visual sem distorcer proporções.
-- Inserir {{TEXTO_AREA_PATROCINADORES}} acima da área.
+- Quando preenchido, inserir {{TEXTO_AREA_PATROCINADORES}} uma única vez, imediatamente acima da faixa inferior, sem sobrepor as marcas.
 - Pode aparar somente espaço branco externo e bordas vazias.
 - Não cortar, redesenhar, recolorir, filtrar, estilizar ou aplicar efeitos nas logos.
 
@@ -139,7 +143,7 @@ Rejeite a imagem e tente novamente apenas quando:
 - CATADOS estiver à direita como mandante ou à esquerda como visitante;
 - escudo estiver deformado, alterado, trocado ou cortado;
 - qualquer uma das 11 logos estiver ausente, alterada ou ilegível;
-- rodapé não tiver fundo branco puro;
+- uma das duas faixas não tiver fundo branco puro ou as marcas não estiverem distribuídas em 6 no topo e 5 na base;
 - texto estiver incorreto, ilegível ou fora da área segura.
 
 Limite a três tentativas automáticas. Persistindo erro em texto, placar, escudos ou logos, pare e recomende gerar somente o fundo para finalização em ferramenta de design.

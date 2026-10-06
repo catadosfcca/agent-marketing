@@ -32,7 +32,7 @@ Este é o perfil central de marca. O time deve substituir valores marcados como 
 - Peças da mesma campanha devem compartilhar paleta, luz e elementos gráficos, com composição adaptada a cada formato.
 - Todo banner mestre usa formato 4:5 e resolução 2160 × 2700.
 - Reserve espaço para aplicação posterior de texto, placares, datas e logos.
-- Reserve uma faixa branca no rodapé e inclua sempre as 11 logos oficiais em duas linhas balanceadas.
+- Reserve duas faixas brancas separadas e inclua as 11 logos oficiais em uma linha por faixa: itens 1 a 6 no topo e itens 7 a 11 na base.
 
 ## Materiais autorizados
 

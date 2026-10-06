@@ -25,7 +25,7 @@ Colete ou infira, sem bloquear desnecessariamente:
 
 Use {{CAMPO}} para informação ausente que precisa ser substituída antes da publicação. Nunca transforme um campo não confirmado em fato.
 
-Toda entrega deve usar [padrao-visual-global.md](padrao-visual-global.md). O padrão visual e a faixa de patrocinadores são requisitos do briefing, não opcionais, salvo pedido explícito do usuário.
+Toda entrega deve usar [padrao-visual-global.md](padrao-visual-global.md). O padrão visual e as duas faixas de patrocinadores são requisitos do briefing, não opcionais, salvo pedido explícito do usuário.
 
 O banner mestre é sempre 4:5 em 2160 × 2700. Registre outras dimensões apenas como adaptações derivadas.
 
@@ -44,7 +44,7 @@ Cena principal: {{SUJEITO, AÇÃO E AMBIENTE}}.
 Direção de arte: {{ESTILO ORIGINAL}}, paleta {{CORES}}, iluminação {{LUZ}}, atmosfera {{CLIMA}}, acabamento {{TEXTURA/QUALIDADE}}.
 Identidade: incorporar {{ELEMENTOS AUTORIZADOS}} de forma coerente, sem redesenhar o logo.
 
-Padrão global: vermelho, preto e branco; alto contraste; geometria moderna; iluminação cinematográfica; grunge leve; acabamento premium; faixa branca de patrocinadores no rodapé ocupando aproximadamente 20% a 30% da altura, com as 11 logos oficiais em duas linhas balanceadas.
+Padrão global: vermelho, preto e branco; alto contraste; geometria moderna; iluminação cinematográfica; grunge leve; acabamento premium; duas faixas brancas de patrocinadores, cada uma inicialmente com 8% a 10% da altura: itens 1 a 6 em uma linha no topo e itens 7 a 11 em uma linha na base; manter conteúdo principal entre elas e ajustar pela legibilidade.
 
 Não incluir texto legível, marcas inventadas, logos deformados, anatomia incorreta, elementos cortados de modo acidental, poluição visual ou informações não fornecidas.
 ```

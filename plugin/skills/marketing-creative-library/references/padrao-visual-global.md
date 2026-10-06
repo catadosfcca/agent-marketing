@@ -47,19 +47,22 @@ Em conteúdos esportivos, integrar atmosfera de estádio ou arena. Em aniversár
 - Não inventar escudos, patrocinadores, uniformes ou marcas.
 - Preservar fisionomia, tom de pele e características de pessoas reais quando houver referência autorizada.
 
-## Área obrigatória de patrocinadores
+## Área de patrocinadores: duas faixas horizontais
 
-Toda peça deve conter uma faixa horizontal exclusiva no rodapé com as 11 logos de [patrocinadores-oficiais.md](patrocinadores-oficiais.md).
+Exceção fixa: a imagem de Busca de times visitantes não contém patrocinadores nem faixas reservadas a marcas. Usar somente o escudo original como referência de identidade e aproveitar o espaço para a mensagem. Não aplicar o bloco reutilizável de patrocinadores abaixo nessa categoria.
 
-- Usar fundo sempre branco puro #FFFFFF.
-- Reservar aproximadamente 20% a 30% da altura, ampliando quando necessário para manter todas as marcas legíveis.
-- Em peças quadradas ou verticais, organizar em duas linhas balanceadas: seis logos na primeira e cinco na segunda.
-- Separar a faixa do conteúdo principal com linha ou transição discreta que não invada o fundo branco.
-- Centralizar cada marca em sua célula, com margens e espaçamento uniformes.
-- Equalizar altura visual e preservar a proporção de cada logo.
-- Usar somente os 11 assets oficiais, sem redesenhar, recolorir, filtrar ou estilizar.
-- Pode aparar apenas espaço branco externo e bordas vazias durante a composição; nunca cortar conteúdo da marca.
-- Nunca sobrepor a faixa ao título, informações principais, escudos ou pessoas.
+Aplicar as 11 logos de [patrocinadores-oficiais.md](patrocinadores-oficiais.md) em duas faixas separadas: itens 1 a 6 no topo e itens 7 a 11 na base, com uma única linha por faixa. Respeitar as exceções operacionais e mudanças solicitadas pelo usuário.
+
+- Usar fundo branco puro #FFFFFF nas duas faixas.
+- Reservar inicialmente 8% a 10% da altura para cada faixa, ajustando pela legibilidade no tamanho final.
+- Posicionar o conteúdo principal entre as faixas; o título fica abaixo da faixa superior e as informações finais acima da inferior.
+- Separar as faixas do conteúdo com linha ou transição discreta que não invada o fundo branco.
+- Centralizar cada marca em sua célula; usar margens e espaçamento uniformes.
+- Manter peso visual equivalente nas duas faixas e preservar a proporção de cada logo; centralizar o grupo de cinco sem ampliar sua escala para preencher a largura.
+- Usar somente os 11 assets oficiais, exatamente uma vez cada, sem redesenhar, recolorir, filtrar ou estilizar.
+- Aparar apenas espaço branco externo e bordas vazias; nunca cortar conteúdo da marca.
+- Respeitar áreas seguras do canal e não sobrepor faixas a título, escudos, informações ou pessoas.
+- Seguir a divisão e o dimensionamento detalhados em [patrocinadores-oficiais.md](patrocinadores-oficiais.md); não voltar a concentrar as 11 marcas no rodapé por padrão.
 
 ## Formato e qualidade
 
@@ -75,5 +78,5 @@ Toda peça deve conter uma faixa horizontal exclusiva no rodapé com as 11 logos
 Inclua este resumo em toda solicitação de imagem:
 
 ```text
-Criar o banner mestre em formato 4:5, resolução exata 2160 × 2700. Aplicar o padrão visual global da marca: paleta vermelho, preto e branco; alto contraste; geometria moderna com diagonais, blocos e overlays; iluminação cinematográfica; glow sutil; profundidade por névoa, fumaça ou partículas moderadas; grunge leve e acabamento premium. Manter hierarquia forte, nitidez alta e leitura em miniatura. Incluir no rodapé uma faixa de fundo branco puro, ocupando aproximadamente 20% a 30% da altura, com as 11 logos oficiais em duas linhas balanceadas, seis na primeira e cinco na segunda. Centralizar e alinhar as marcas, preservar proporções e aparar somente espaço branco externo. Não redesenhar, recolorir, filtrar ou alterar logos, escudos ou pessoas de referência.
+Criar o banner mestre em formato 4:5, resolução exata 2160 × 2700. Aplicar o padrão visual global da marca: paleta vermelho, preto e branco; alto contraste; geometria moderna com diagonais, blocos e overlays; iluminação cinematográfica; glow sutil; profundidade por névoa, fumaça ou partículas moderadas; grunge leve e acabamento premium. Manter hierarquia forte, nitidez alta e leitura em miniatura. Incluir duas faixas horizontais separadas de fundo branco puro, com uma linha por faixa: itens 1 a 6 no topo e itens 7 a 11 na base, exatamente uma vez cada. Reservar inicialmente 8% a 10% da altura por faixa, ajustando pela legibilidade e pelas áreas seguras do canal. Manter título, escudos, fotos e informações entre as faixas; centralizar o grupo de cinco com escala visual equivalente ao grupo de seis. Centralizar e alinhar as marcas, preservar proporções e aparar somente espaço branco externo. Não redesenhar, recolorir, filtrar ou alterar logos, escudos ou pessoas de referência.
 ```
