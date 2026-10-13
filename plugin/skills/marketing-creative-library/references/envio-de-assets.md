@@ -2,10 +2,29 @@
 
 Os assets incluídos no plugin são a fonte oficial. Ferramentas generativas podem não anexá-los automaticamente; isso **não** significa que os arquivos estejam ausentes. O agente deve tentar as rotas abaixo antes de pedir qualquer reenvio ao usuário.
 
+## Carregamento obrigatório antes da geração
+
+Usar [carregar_assets.py](../scripts/carregar_assets.py) com Python e Pillow disponíveis. O script encontra a raiz da skill a partir do próprio arquivo, independentemente do diretório atual; valida os originais, recria as referências com as logos atuais e copia o escudo para uma pasta gravável fora da skill instalada. Não enviar caminhos relativos diretamente à ferramenta de imagem.
+
+Comando de referência (substituir os caminhos entre aspas pelos caminhos absolutos reais do ambiente):
+
+~~~text
+python "<RAIZ_ABSOLUTA_DA_SKILL>/scripts/carregar_assets.py" --output "<PASTA_GRAVAVEL>/assets-catados"
+~~~
+
+Para Busca de times visitantes ou outra peça sem patrocinadores, adicionar --somente-escudo. Para testar uma instalação específica, --skill-root "<RAIZ_ABSOLUTA_DA_SKILL_INSTALADA>" seleciona os assets dessa instalação. Nunca fixar no prompt o caminho da máquina do autor nem um número de versão do cache.
+
+- Executar o carregador antes de chamar a ferramenta de imagem. Se não houver Python/Pillow, usar os recursos de leitura e cópia disponíveis no ambiente para obter o mesmo resultado, sem afirmar que o script rodou.
+- Ler o JSON retornado ou assets-carregados.json na pasta de saída. O campo referenced_image_paths contém os caminhos absolutos verificados do escudo e da prancha (ou apenas do escudo com --somente-escudo).
+- Inspecionar as imagens carregadas. Em image_gen.imagegen, passar essa lista no argumento real referenced_image_paths, acrescentando os demais inputs locais necessários; não colar apenas os caminhos no texto do prompt. Se algum input só existir na conversa, seguir o mecanismo documentado de imagens recentes e não combinar os dois mecanismos.
+- As faixas em faixas.topo e faixas.base são arquivos para composição gráfica quando permitida; não são campos da ferramenta de geração.
+- Erro de carregamento deve interromper a geração, com a causa concreta. O script não gera imagens nem chama automaticamente a ferramenta. Carregamento validado não prova fidelidade da imagem final.
+- Links externos ainda não estão configurados. Não presumir URLs nem acesso a GitHub Pages; cadastrar e testar links reais antes de usar uma fonte remota.
+
 ## Ordem obrigatória de recuperação
 
 1. Identificar quais assets a peça exige.
-2. Tentar usar diretamente os arquivos internos da skill:
+2. Resolver os arquivos internos em relação à raiz real da skill e executar o carregamento acima. Os caminhos abaixo são relativos a esta página de referência, não ao diretório atual:
    - `../assets/escudos/catados-fcca.jpeg`
    - `../assets/referencias/referencias-oficiais.png`
    - `../assets/referencias/patrocinadores-topo.png`

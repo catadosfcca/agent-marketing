@@ -27,22 +27,21 @@ def inserir(canvas, path, box):
                         y + (height - image.height) // 2))
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, required=True)
-    args = parser.parse_args()
-    text = (SKILL / "references/patrocinadores-oficiais.md").read_text(encoding="utf-8")
+def preparar(output, skill_root=SKILL):
+    output = Path(output).resolve()
+    skill_root = Path(skill_root).resolve()
+    text = (skill_root / "references/patrocinadores-oficiais.md").read_text(encoding="utf-8")
     entries = re.findall(r"^\| (\d+) \| ([^|]+) \| \[[^\]]+\]\(([^)]+)\)", text, re.M)
     if [int(e[0]) for e in entries] != list(range(1, 12)):
         raise ValueError("A biblioteca deve conter exatamente os itens 1 a 11 em ordem.")
-    sponsors = [(name.strip(), (SKILL / "references" / rel).resolve())
+    sponsors = [(name.strip(), (skill_root / "references" / rel).resolve())
                 for _, name, rel in entries]
-    crest = SKILL / "assets/escudos/catados-fcca.jpeg"
+    crest = skill_root / "assets/escudos/catados-fcca.jpeg"
     for path in [crest, *(path for _, path in sponsors)]:
         if not path.is_file():
             raise FileNotFoundError(path)
         carregar(path)  # Valida todos os inputs antes de escrever as saidas.
-    args.output.mkdir(parents=True, exist_ok=True)
+    output.mkdir(parents=True, exist_ok=True)
     strips = []
     for filename, group in [("patrocinadores-topo.png", sponsors[:6]),
                             ("patrocinadores-base.png", sponsors[6:])]:
@@ -50,26 +49,29 @@ def main():
         offset = (2400 - 400 * len(group)) // 2
         for index, (_, path) in enumerate(group):
             inserir(canvas, path, (offset + index * 400 + 24, 24, 352, 352))
-        canvas.save(args.output / filename)
+        canvas.save(output / filename)
         strips.append(canvas)
     kit = Image.new("RGB", (2400, 1240), "white")
     inserir(kit, crest, (1000, 20, 400, 400))
     kit.paste(strips[0], (0, 440))
     kit.paste(strips[1], (0, 840))
-    kit.save(args.output / "referencias-oficiais.png")
+    kit.save(output / "referencias-oficiais.png")
     manifest = {
         "prancha": "referencias-oficiais.png",
-        "escudo": str(crest.relative_to(SKILL)),
+        "escudo": str(crest.relative_to(skill_root)),
         "topo": [name for name, _ in sponsors[:6]],
         "base": [name for name, _ in sponsors[6:]],
-        "sha256": {str(path.relative_to(SKILL)): hashlib.sha256(path.read_bytes()).hexdigest()
+        "sha256": {str(path.relative_to(skill_root)): hashlib.sha256(path.read_bytes()).hexdigest()
                    for path in [crest, *(path for _, path in sponsors)]},
         "nota": "Prancha de referencia, nao e banner final. Originais sem recorte; escala proporcional."
     }
-    (args.output / "manifesto.json").write_text(
+    (output / "manifesto.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(str((args.output / "referencias-oficiais.png").resolve()))
+    return (output / "referencias-oficiais.png").resolve()
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output", type=Path, required=True)
+    args = parser.parse_args()
+    print(preparar(args.output))

@@ -1,0 +1,34 @@
+{
+  "prancha": "referencias-oficiais.png",
+  "escudo": "assets\\escudos\\catados-fcca.jpeg",
+  "topo": [
+    "Bianco Pescados",
+    "Codomotors",
+    "EnerG Geradores",
+    "Esportes Delivery",
+    "Ibérica Seguros",
+    "Luciana Nobre"
+  ],
+  "base": [
+    "Dra. Renatiely Paschoali",
+    "Rafinha Distribuidora",
+    "ReMove Sports Rehab",
+    "Rodrigues Oliveira",
+    "YUAM"
+  ],
+  "sha256": {
+    "assets\\escudos\\catados-fcca.jpeg": "47164745477f25b461c04abaa59d9ecd02e473b6b9728dd18761a04fa1721532",
+    "assets\\patrocinadores\\bianco-pescados.jpg": "3b650cfc77934933c3029b6aaec5376b7db73f49a65a06cb2ab82c4f38af29bf",
+    "assets\\patrocinadores\\codomotors.jpeg": "478e48a7b9ccbd134da1d0fd137aef30d42ce519fe2cc38f1307876d52b39033",
+    "assets\\patrocinadores\\energ-geradores.png": "4f8085792722713237d5a6ae8ac6592a7ecc59f6b1eed03d0f59358cb0ae49d0",
+    "assets\\patrocinadores\\esportes-delivery.jpeg": "0ae167e039cd40492557452860c4e201fc41a3b28f305fee8f46a683486ab1ad",
+    "assets\\patrocinadores\\iberica-seguros.jpg": "e83eb9f285e1a2ee1ef0548889d66a7012f3eb607a2eb2330486317209e1901d",
+    "assets\\patrocinadores\\luciana-nobre.jpeg": "dde37e061a24846db5d33e6de8bf183aa8b6d5c919b241e682387548d9a50047",
+    "assets\\patrocinadores\\renatiely-paschoali.jpeg": "2601c799a84bb4fdc4f4e7816404597a9b5a19c7bd59becb4daf3789d2de691b",
+    "assets\\patrocinadores\\rafinha-distribuidora.jpg": "5a1336f6f231f88b532a97942faabf8e02a57fa9bc0f0527573b3dfe42528a3c",
+    "assets\\patrocinadores\\remove-sports-rehab.jpg": "7ffa212d661a27432d4e7f27c58c73863dd979272c8562a29a9068d7a3040817",
+    "assets\\patrocinadores\\rodrigues-oliveira.jpg": "6cfd1a1a5ca31492d8469c1c596c0e21693058a898e32eff079bbc2b53af8e9e",
+    "assets\\patrocinadores\\yuam.jpg": "03bfab9f9d6977a8fc38448dee1585798d941942f1efcaee63456f41c69cc901"
+  },
+  "nota": "Prancha de referencia, nao e banner final. Originais sem recorte; escala proporcional."
+}

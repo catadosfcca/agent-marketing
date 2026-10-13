@@ -1,0 +1,13 @@
+{
+  "skill_root": "C:\\Users\\ADM\\.codex\\plugins\\cache\\created-by-me-remote\\catados-fcca-marketing\\1.0.11\\skills\\marketing-creative-library",
+  "referenced_image_paths": [
+    "C:\\Users\\ADM\\Documents\\GitHub\\agent-marketing\\output\\validacao-carregamento\\instalado\\catados-fcca.jpeg",
+    "C:\\Users\\ADM\\Documents\\GitHub\\agent-marketing\\output\\validacao-carregamento\\instalado\\referencias-oficiais.png"
+  ],
+  "patrocinadores": 11,
+  "faixas": {
+    "topo": "C:\\Users\\ADM\\Documents\\GitHub\\agent-marketing\\output\\validacao-carregamento\\instalado\\patrocinadores-topo.png",
+    "base": "C:\\Users\\ADM\\Documents\\GitHub\\agent-marketing\\output\\validacao-carregamento\\instalado\\patrocinadores-base.png"
+  },
+  "instrucao": "Enviar referenced_image_paths no campo real da ferramenta. Este arquivo nao executa a geracao."
+}

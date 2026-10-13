@@ -15,6 +15,8 @@ Quando o pedido vier completo, executar diretamente. Se faltarem dados essenciai
 
 ## Trava obrigatória de identidade visual
 
+Antes de gerar, executar o [carregador de assets](scripts/carregar_assets.py) conforme [envio de assets](references/envio-de-assets.md). Usar os caminhos absolutos retornados em referenced_image_paths como inputs reais da ferramenta. Na busca de times visitantes, carregar com --somente-escudo. Não tentar anexar caminhos relativos ao diretório atual.
+
 Os assets internos deste plugin são a fonte oficial de identidade. **Nunca trate a existência dos arquivos internos como se eles tivessem sumido apenas porque a ferramenta de imagem não os anexou automaticamente.** Antes de pedir qualquer reenvio ao usuário, executar integralmente [envio de assets](references/envio-de-assets.md), incluindo as rotas alternativas de recuperação e composição exata.
 
 - Peças com as 11 marcas usam `assets/referencias/referencias-oficiais.png` como referência visual oficial; quando a geração não aceitar esse asset diretamente, usar as faixas oficiais `assets/referencias/patrocinadores-topo.png` e `assets/referencias/patrocinadores-base.png` na etapa de composição exata.
